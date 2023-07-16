@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    padding: 0%;
+}
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.main_content {
+    background: #000000c7;
+    padding: 5%;
+    margin: auto;
+    max-width: 1250px;
+}
+
+.item {
+    background:white;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.hyperlink {
+    background:white;
+    padding: 2%;
+}
+
+p,a {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h1,h2 {
+    color: white;
+}
+
+h1,h2,h3,p,a,th,td {
+    font-family: 'Itim', cursive;
+}
+
+video {
+    width:1000px;
+}
+
+table,th,td {
+    padding: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+header {
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.932);
+}
+
+.Head {
+    padding: 2%;
+    text-align:center
+}
+
+div.Head a {
+    display: inline-block;
+    font-size: larger;
+    text-decoration: none;
+    color: #000;
+}
+
+div.Head p {
+    display: inline;
+    margin-right: 2%;
+}
